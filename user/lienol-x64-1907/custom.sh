@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Test custom.sh"
-echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall:main" >>feeds.conf.default
+echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall;main" >>feeds.conf.default
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 

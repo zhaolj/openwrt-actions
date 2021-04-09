@@ -5,4 +5,4 @@ git clone https://github.com/pymumu/luci-app-smartdns.git -b lede               
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns                                      package/smartdns
 
 rm -rf feeds/packages/libs/libcap
-svn co https://github.com/openwrt/openwrt/trunk/package/libs/libpcap feeds/packages/libs/libcap
+svn co https://github.com/openwrt/openwrt/trunk/package/libs/libcap feeds/packages/libs/libcap
